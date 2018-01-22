@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /*background-color:rgb(255, 5, 47);*/
+}
+
+.body {
+    font-size: 14px;
+    font-family: ‘Pathway Gothic One’, sans-serif; font-weight: 700;
+    background-image: url(../images/see.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.wrapper {
+    width:480px;
+    margin: auto;
+    background-color: white;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.articles {
+    margin: auto;
+}
+
+.titles {
+    text-decoration: upercase;
+}
+
+.first-p {
+
+}
+ .list {
+
+ }
