@@ -2,7 +2,6 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    /*background-color:rgb(255, 5, 47);*/
 }
 
 .body {
@@ -25,25 +24,28 @@
 
 .articles {
     margin: auto;
-    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .titles {
     text-transform: uppercase;
     font-size: 20px;
-    color: blue;
-    padding: 15px;
-    /*font-weight: 400;*/
+    color: rgb(77, 32, 148);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 400;
 }
 
 .first-p {
     font-size: 20px;
-    color: blue;
-    margin: 10px;
+    color: rgb(77, 32, 148);
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
- .list {
+ .list li{
     display: inline-block;
-    color: blue;
+    color: rgb(77, 32, 148);
     padding: 15px;
-    margin: 20px;
 }
