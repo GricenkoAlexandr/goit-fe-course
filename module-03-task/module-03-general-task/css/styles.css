@@ -25,26 +25,25 @@
 
 .articles {
     margin: auto;
-    padding: 10px;
+    padding: 15px;
 }
 
-/*articles {
-    color: red;
-    text-transform: uppercase;
-    font-size: 20px;
-    text-decoration-color: blue;
-
-}
-*/
-h2.titles {
+.titles {
     text-transform: uppercase;
     font-size: 20px;
     color: blue;
+    padding: 15px;
+    /*font-weight: 400;*/
 }
 
 .first-p {
-    text-decoration-color: blue;
+    font-size: 20px;
+    color: blue;
+    margin: 10px;
 }
  .list {
-
- }
+    display: inline-block;
+    color: blue;
+    padding: 15px;
+    margin: 20px;
+}
