@@ -1,0 +1,12 @@
+.body {
+    background-color: #f81100
+}
+
+.wrapper {
+    background-color: #15ff00cc
+    
+}
+
+.menu li{
+    display: inline-block;
+}
