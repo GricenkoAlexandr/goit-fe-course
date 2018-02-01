@@ -1,18 +1,16 @@
-.body {
-    background-color: #1100ffcc;
+body {
+    background-color: #6fc9636e;
     background-image: url(../images/See.png);
     background-repeat: no-repeat;
     width: 100%;
+    font-family: 'Pathway Gothic One',sans-serif;
 }
 
 .wrapper {
     background-color: #f7f7f7;
-    width: 480px;
-    height: 500px;
+    width: 450px;
+    margin: auto;
     margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
     padding: 20px;
 
     
@@ -29,14 +27,16 @@ menu {
 .menu li{
     display: inline-block;
     font-size: 20px;
-    width: 55px;
+    width: auto;
     height: 40px;
     padding: 10px;
-    color: #050505;
+    color: #fa0a0a;
     background-color: #0400ffe0;
+    text-transform: uppercase;
 
 }
 
-.menu li :hover {
-    background-color: #fd1010;
+.menu li:hover {
+    background-color: #10ff08;
+    text-transform: lowercase;
 }
