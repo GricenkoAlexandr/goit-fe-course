@@ -1,15 +1,42 @@
 .body {
     background-color: #1100ffcc;
+    background-image: url(../images/See.png);
+    background-repeat: no-repeat;
+    width: 100%;
 }
 
 .wrapper {
-    background-color: #15ff00cc;
+    background-color: #f7f7f7;
+    width: 480px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 20px;
+
     
+}
+menu {
+    background-color: #5903aa;
+    padding: 10px;
+    margin: 10px;
+    border-style: double;
+    border-color: #050505;
+
 }
 
 .menu li{
     display: inline-block;
-    color: rgb(0, 0, 0);
-    background-color: #ff00d4e0;
+    font-size: 20px;
+    width: 55px;
+    height: 40px;
+    padding: 10px;
+    color: #050505;
+    background-color: #0400ffe0;
 
+}
+
+.menu li :hover {
+    background-color: #fd1010;
 }
