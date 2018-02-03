@@ -4,6 +4,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    min-height: 100vh;
     font-family: 'Pathway Gothic One',sans-serif;
 }
 
@@ -20,14 +21,13 @@ menu {
     background-color: #5903aa;
     padding: 10px;
     margin: 10px;
-    border: 4px double #000000;
 }
 
 .menu li{
     display: inline-block;
     font-size: 20px;
-    width: auto;
-    height: 40px;
+    width: 70px;
+    height: auto;
     padding: 10px;
     color: #fa0a0a;
     background-color: #0400ffe0;
@@ -36,6 +36,7 @@ menu {
 }
 
 .menu li:hover {
+    color: #1a0afa;
     background-color: #10ff08;
     text-transform: lowercase;
 }
