@@ -34,6 +34,7 @@ menu {
     background-color: #0400ffe0;
     text-transform: uppercase;
     text-align: center;
+    border-radius: 50%;
 }
 
 li:nth-child(3n) {

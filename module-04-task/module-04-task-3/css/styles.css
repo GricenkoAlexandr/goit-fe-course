@@ -1,0 +1,43 @@
+body {
+    background-color: #6fc9636e;
+    background-image: url(../images/See.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    font-family: 'Pathway Gothic One',sans-serif;
+}
+
+.wrapper {
+    background-color: #f7f7f7;
+    width: 900px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+
+    
+}
+menu {
+    background-color: #5903aa;
+    padding: 10px;
+    margin: 10px;
+}
+
+.menu li{
+    display: inline-block;
+    font-size: 20px;
+    width: 90px;
+    height: auto;
+    padding: 10px;
+    color: rgb(34, 255, 5);
+    background-color: #0400ffe0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.menu li:hover {
+    color: #0a36fa;
+    background-color: #ff0000;
+    text-transform: lowercase;
+}
