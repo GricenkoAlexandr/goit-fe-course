@@ -3,6 +3,7 @@ body {
     background-image: url(../images/See.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     min-height: 100vh;
     width: 100%;
     font-family: 'Pathway Gothic One',sans-serif;
@@ -29,10 +30,22 @@ menu {
     width: 90px;
     height: auto;
     padding: 10px;
-    color: #fa0a0a;
+    color: #0E1116;
     background-color: #0400ffe0;
     text-transform: uppercase;
     text-align: center;
+}
+
+li:nth-child(3n) {
+    background-color: #88292F; 
+}
+
+li:nth-child(3n+1) {
+    background-color: #5DB7DE;  
+}
+
+li:nth-child(3n+2) {
+    background-color: #0D5D56;   
 }
 
 .menu li:hover {
