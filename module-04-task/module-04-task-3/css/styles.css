@@ -11,7 +11,7 @@ body {
 
 .wrapper {
     background-color: #f7f7f7;
-    width: 900px;
+    width: 950px;
     margin: auto;
     margin-top: 50px;
     padding: 20px;
@@ -27,13 +27,18 @@ menu {
 .menu li{
     display: inline-block;
     font-size: 20px;
-    width: 90px;
+    width: 98px;
     height: auto;
     padding: 10px;
-    color: rgb(34, 255, 5);
+    color: #22ff05;
     background-color: #0400ffe0;
     text-transform: uppercase;
     text-align: center;
+}
+
+.menu li::before {
+    content: '↑';
+    color: #eeff00;
 }
 
 .menu li:hover {
