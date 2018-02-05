@@ -37,7 +37,7 @@ menu {
 }
 
 .menu li::before {
-    content: '↑';
+    content: '\21e7';
     color: #eeff00;
 }
 
