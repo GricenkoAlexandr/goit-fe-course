@@ -11,24 +11,19 @@ body {
 
 .wrapper {
     background-color: #f7f7f7;
-    width: 500px;
+    width: 800px;
     margin: auto;
     margin-top: 50px;
     padding: 20px;
 
     
 }
-menu {
-    background-color: #5903aa;
-    padding: 10px;
-    margin: 10px;
-}
 
 .menu li{
     display: inline-block;
     font-size: 20px;
-    width: 90px;
-    height: auto;
+    width: 150px;
+    height: 100px;
     padding: 10px;
     color: #22ff05;
     background-color: #0400ffe0;
@@ -36,10 +31,14 @@ menu {
     text-align: center;
 }
 
-/*.menu li::before {
-    content: '1';
-    color: #eeff00;
-}*/
+.menu li::before {
+    display: inline-block;
+    width: auto;
+    height: 60px;
+    content: url(../images/avatar-15.jpg);
+    margin right: 15px;
+    vertical-align: middle;
+}
 
 .menu li:hover {
     color: #0a36fa;
