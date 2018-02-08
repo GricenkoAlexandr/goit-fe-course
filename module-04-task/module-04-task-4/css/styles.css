@@ -23,25 +23,32 @@ body {
     display: inline-block;
     font-size: 20px;
     width: 150px;
-    height: 100px;
+    /*height: 100px;*/
     padding: 10px;
     color: #22ff05;
     background-color: #0400ffe0;
     text-transform: uppercase;
     text-align: center;
+    counter-increment: buttonnumber;
 }
 
 .menu li::before {
     display: inline-block;
     width: auto;
-    height: 60px;
-    content: url(../images/avatar-15.jpg);
+    height: auto;
+    /*content: url(../images/avatar-15.jpg);*/
     margin right: 15px;
     vertical-align: middle;
+    content: '_'counter(buttonnumber) '_'
 }
 
 .menu li:hover {
     color: #0a36fa;
     background-color: #ff0000;
     text-transform: lowercase;
+}
+
+.menu {
+    counter-reset: countmaster;
+
 }
