@@ -23,7 +23,7 @@ body {
     display: inline-block;
     font-size: 20px;
     width: 150px;
-    /*height: 100px;*/
+    height: 150px;
     padding: 10px;
     color: #22ff05;
     background-color: #0400ffe0;
@@ -36,10 +36,9 @@ body {
     display: inline-block;
     width: auto;
     height: auto;
-    /*content: url(../images/avatar-15.jpg);*/
-    margin right: 15px;
+    margin-right: 15px;
     vertical-align: middle;
-    content: '_'counter(buttonnumber) '_'
+    content: counter(buttonnumber, upper-roman)
 }
 
 .menu li:hover {
