@@ -38,11 +38,20 @@
     font-size: 20px;
     color: rgb(77, 32, 148);
     font-size: 14px;
-    margin-top: 10px;
     margin-bottom: 10px;
 }
- .list li{
+
+ .list li {
     display: inline-block;
     color: rgb(77, 32, 148);
     margin-bottom: 15px;
+}
+
+.article {
+    margin-bottom: 10px;
+}
+
+.border {
+    border-bottom: 1px solid rgb(77, 32, 148);
+    padding-bottom: 30px;
 }
