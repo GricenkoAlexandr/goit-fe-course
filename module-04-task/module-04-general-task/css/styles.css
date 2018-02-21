@@ -1,7 +1,51 @@
 .body {
-    background-color: #f81100
+    font-size: 14px;
+    font-family: ‘Pathway Gothic One’, sans-serif; font-weight: 400;
+    background-image: url(../images/see.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
+
 .wrapper {
-    background-color: #15ff00cc
-    
+    width:480px;
+    margin: auto;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+.articles {
+    margin-bottom: 30px;
+}
+
+.titles {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgb(77, 32, 148);
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.first-p {
+    font-size: 20px;
+    color: rgb(77, 32, 148);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+ .list li {
+    display: inline-block;
+    color: rgb(77, 32, 148);
+    margin-bottom: 15px;
+}
+
+.article {
+    margin-bottom: 10px;
+}
+
+.border {
+    border-bottom: 1px solid rgb(77, 32, 148);
+    padding-bottom: 30px;
 }
