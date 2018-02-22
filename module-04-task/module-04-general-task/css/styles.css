@@ -17,6 +17,8 @@
 }
 
 .articles {
+    display: inline-block;
+    width: 40%;
     margin-bottom: 30px;
 }
 
@@ -47,6 +49,14 @@
 
 .article {
     margin-bottom: 10px;
+}
+
+.article::before {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #384ead;
 }
 
 .border {
