@@ -8,7 +8,7 @@
 }
 
 .wrapper {
-    width:480px;
+    width:1010px;
     margin: auto;
     background-color: white;
     margin-top: 50px;
@@ -41,6 +41,10 @@
     margin-bottom: 15px;
 }
 
+.list li::before {
+    content: '\2192';
+}
+
 .article {
     margin-bottom: 10px;
 }
@@ -48,4 +52,10 @@
 .border {
     border-bottom: 1px solid rgb(77, 32, 148);
     padding-bottom: 30px;
+}
+
+.quote {
+    display: inline-block;
+    background-color: rgb(169, 183, 184);
+    width: 150px;
 }
