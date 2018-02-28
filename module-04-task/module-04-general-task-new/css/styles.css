@@ -1,0 +1,27 @@
+.body{
+    background-color: #006400;
+    font-size: 14px;
+    font-family: ‘Pathway Gothic One’, sans-serif; font-weight: 400;
+}
+
+.wrapper{
+    display: inline-block;
+    width: 800px;
+    margin: auto;
+    padding: 30px;
+    background-color: #fcfcfc;
+}
+
+.header{
+    font-style: italic;
+    width: 600px;
+    background-color: chartreuse;
+}
+
+.logo{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    text-transform: uppercase;
+}
