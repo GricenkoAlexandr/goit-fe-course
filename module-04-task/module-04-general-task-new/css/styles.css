@@ -1,27 +1,80 @@
-.body{
+.body {
     background-color: #006400;
     font-size: 14px;
     font-family: ‘Pathway Gothic One’, sans-serif; font-weight: 400;
 }
 
-.wrapper{
+.wrapper {
     display: inline-block;
-    width: 800px;
-    margin: auto;
+    width: 1000px;
+    margin: 50px;
     padding: 30px;
     background-color: #fcfcfc;
 }
 
-.header{
-    font-style: italic;
-    width: 600px;
+.header {
+    display: block;
+    font-style: normal;
+    width: 900px;
     background-color: chartreuse;
+    padding: 5px;
+    /*line-height: 50px;*/
+
 }
 
-.logo{
-    display: inline-block;
+.logo a {
+    float: left;
     width: 50px;
     height: 50px;
-    background-color: brown;
+    font-size: 18px;
+    background-color: rgb(172, 234, 236);
     text-transform: uppercase;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+.menu {
+    float: right;
+    padding: 10px;
+    background-color: blueviolet;
+    line-height: 30px;
+}
+
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 10px;
+    margin-right: 5px;
+    padding: 5px;
+    background-color: #ffffff;
+}
+
+.menu a:hover {
+    background-color: #ff0000;
+}
+
+.clearfix::after {
+    display: table;
+    content: '';
+    clear: both;
+}
+.image {
+    width: 150px;
+    height: 150px;
+}
+
+li {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+
+}
+
+.menu li {
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+
 }
