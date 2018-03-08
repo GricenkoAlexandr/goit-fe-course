@@ -1,58 +1,62 @@
 .body {
-    background-color: #006400;
-    font-size: 14px;
-    font-family: ‘Pathway Gothic One’, sans-serif; font-weight: 400;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-family: ‘Pathway Gothic One’, sans-serif; font-weight: 700;
 }
 
 .wrapper {
-    display: inline-block;
-    width: 1000px;
-    margin: 50px;
-    padding: 30px;
-    background-color: #fcfcfc;
+    width: 860px;
+    margin: auto;
+    padding: 10px;
+    background-color: #ffffff;
+    padding: 20px;
 }
 
 .header {
     display: block;
     font-style: normal;
-    width: 900px;
-    background-color: chartreuse;
-    padding: 5px;
-    /*line-height: 50px;*/
-
+    width: 800px;
+    padding: 5px;    
 }
 
 .logo a {
     float: left;
-    width: 50px;
+    width: 60px;
     height: 50px;
     font-size: 18px;
-    background-color: rgb(172, 234, 236);
+    color: #000000;
     text-transform: uppercase;
     text-align: center;
     line-height: 50px;
     text-decoration: none;
 }
 
+.logo a::first-letter {
+    color: #1cbd9b;
+}
+
 .menu {
     float: right;
     padding: 10px;
-    background-color: blueviolet;
     line-height: 30px;
 }
 
 .menu a {
+    font-size: 400;
     text-decoration: none;
     text-transform: uppercase;
     color: #000000;
     font-size: 10px;
     margin-right: 5px;
     padding: 5px;
-    background-color: #ffffff;
+}
+
+.menu a:first-child {
+    color: #1cbd9b;
 }
 
 .menu a:hover {
-    background-color: #ff0000;
+    color: #1cbd9b;
 }
 
 .clearfix::after {
@@ -61,8 +65,9 @@
     clear: both;
 }
 .image {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 215px;
+
 }
 
 li {
@@ -78,3 +83,11 @@ li {
     height: 20px;
 
 }
+
+.titles {
+    height: 50px;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin: 25px;
+} 
