@@ -16,7 +16,8 @@
     display: block;
     font-style: normal;
     width: 800px;
-    padding: 5px;    
+    padding: 10px; 
+    margin: 10px;   
 }
 
 .logo a {
@@ -65,14 +66,14 @@
     clear: both;
 }
 .image {
-    width: 200px;
+    width: 180px;
     height: 215px;
 
 }
 
 li {
     display: inline-block;
-    width: 200px;
+    width: 196px;
     height: 200px;
 
 }
@@ -90,4 +91,35 @@ li {
     font-size: 35px;
     text-transform: uppercase;
     margin: 25px;
-} 
+    border-bottom: 4px solid #1cbd9b;
+}
+
+.showcase {
+    padding: 10px;
+}
+
+.showcase p {
+    display: inline-block;
+    color: #ffffff;
+    background-color: #323232;
+    text-transform: uppercase;
+}
+.price {
+    display: inline-block;
+    color: #f01048;
+    background-color: #8C8C8C;
+}
+.news li {
+    display: inline-block;
+    width: 270px;
+    height: 200px;
+}
+
+.imgnews {
+    width: 220px;
+    height: 160px;
+}
+
+.prenews {
+
+}
