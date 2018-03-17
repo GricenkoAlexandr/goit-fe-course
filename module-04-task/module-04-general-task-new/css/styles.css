@@ -104,13 +104,17 @@ li {
     background-color: #323232;
     text-transform: uppercase;
 }
+
+.showcase li:hover {
+    background-color: #1BBC9A;
+}
 .price {
-    display: inline-block;
+    float: right;
     color: #f01048;
     background-color: #8C8C8C;
 }
 .news li {
-    display: inline-block;
+    float: left;
     width: 270px;
     height: 200px;
 }
