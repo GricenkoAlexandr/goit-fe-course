@@ -1,0 +1,30 @@
+.wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 16px;
+}
+
+
+.preview {
+    width: 470px;
+    color: rgb(97, 97, 97);
+    margin: auto;
+    padding: 25px;
+    padding-top: 35px;
+    box-shadow: 0 0 5px rgba(97, 97, 97,0.5);
+}
+
+.label {
+    text-transform: uppercase;
+    color:rgb(197, 197, 197)
+}
+
+h4 {
+    font-size: 32px; 
+    font-weight: 400;
+    line-height: 0.5;
+}
+
+h4::first-letter {
+    text-transform: uppercase;
+}
