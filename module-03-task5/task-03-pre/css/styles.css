@@ -1,0 +1,37 @@
+.wrapper {
+    padding-top: 50px;
+    font-size: 16px;
+    width: 960px;
+    margin: auto;
+    vertical-align: top;
+}
+
+.showcase {
+    width: auto;
+    box-shadow: 0 0 5px rgba(97, 97, 97,0.5);
+    padding: 20px;
+}
+
+.preview {
+    display: inline-block;
+    width: 410px;
+    color: rgb(97, 97, 97);
+    margin: auto;
+    padding: 20px;
+    padding-top: 35px;
+}
+
+.label {
+    text-transform: uppercase;
+    color:rgb(197, 197, 197)
+}
+
+h4 {
+    font-size: 32px; 
+    font-weight: 400;
+    line-height: 0.5;
+}
+
+h4::first-letter {
+    text-transform: uppercase;
+}
