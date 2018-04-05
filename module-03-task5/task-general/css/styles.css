@@ -1,24 +1,16 @@
 .wrapper {
+    padding:20px;
     padding-top: 50px;
     font-size: 16px;
-    width: 960px;
+    width: 980px;
     margin: auto;
-    vertical-align: top;
-    box-shadow: 0 0 5px rgba(97, 97, 97,0.5);
-}
-
-.navigation {
-    box-shadow: 0 0 5px rgba(97, 97, 97,0.5);
-    /*text-align: center;*/   
 }
 
 .menu {
-
-    box-shadow: 0 0 5px rgba(97, 97, 97,0.5);
     text-align: center; 
 }
 
-li {
+.menu li {
     text-transform: uppercase;
     color: rgb(97, 97, 97);
     height: 60px;
@@ -30,28 +22,41 @@ li {
     list-style: none;
 }
 
-li:hover {
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color:rgb(97, 97, 97);
+}
+
+/*a:first-child {
+    color: rgb(48, 183, 246);
+}
+*/
+a:hover {
     color:rgb(3, 169, 244);
 }
 
 .section {
-    width: auto;
-    box-shadow: 0 0 5px rgba(97, 97, 97,0.5);
     padding: 20px;
 }
 
 h3 {
     font-size: 32px; 
     font-weight: 400;
-    line-height: 0.5;
+    line-height: 1;
+}
+
+h3:first-letter {
+    text-transform: uppercase;
 }
 
 .preview {
     display: inline-block;
     width: 410px;
     color: rgb(97, 97, 97);
-    margin: auto;
-    padding: 20px;
+    margin: 1px;
+    padding: 25px;
     padding-top: 35px;
 }
 
@@ -67,15 +72,19 @@ h3 {
 
 .loading {
     display: inline-block;
-    width: 100px;
-    height: 60px;
+    width: 180px;
     text-align: center;
+    line-height: 60px;
+    border: 1px solid rgb(0, 0, 0);
+    color:rgb(97, 97, 97);
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: auto;
 
 }
 
-a {
-    text-decoration: none;
-    text-transform: uppercase;
+.button {
+    height: 60px;
     text-align: center;
-    color:rgb(197, 197, 197);
+    line-height: 60px;
 }
