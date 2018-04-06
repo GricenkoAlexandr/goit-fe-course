@@ -10,7 +10,7 @@ body {
 }
 
 .wrapper {
-    background-color: #f806d8;
+    background-image: linear-gradient( #fdfc47,#24fe41);
     width: 580px;
     height: 80px;
     margin: auto;
@@ -25,14 +25,14 @@ body {
     height: auto;
     padding: 10px;
     margin: 5px;
-    color: #fa0a0a;
-    background-color: #0400ffe0;
+    color: #0afa0a;
+    background-image: linear-gradient(#833ab4, #fd1d1d,#fcb045 );
     text-transform: uppercase;
     text-align: center;
 }
 
 .menu li:hover {
-    color: #1a0afa;
-    background-color: #10ff08;
+    color: #f6fa0a;
+    background-image: linear-gradient(#870000, #190a05);
     text-transform: lowercase;
 }
