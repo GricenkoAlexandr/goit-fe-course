@@ -7,7 +7,8 @@
 }
 
 .menu {
-    text-align: center; 
+    text-align: center;
+    font-size: 0px; 
 }
 
 .menu li {
@@ -29,16 +30,13 @@ a {
     color:rgb(97, 97, 97);
 }
 
-/*a:first-child {
-    color: rgb(48, 183, 246);
-}
-*/
 a:hover {
     color:rgb(3, 169, 244);
 }
 
 .section {
     padding: 20px;
+    font-size: 0px;
 }
 
 h3 {
@@ -58,11 +56,13 @@ h3::first-letter {
     margin: 1px;
     padding: 25px;
     padding-top: 35px;
+    font-size: 16px;
 }
 
 .label {
     text-transform: uppercase;
-    color:rgb(197, 197, 197) 
+    color:rgb(197, 197, 197);
+    font-size: 16px; 
 }
 
 .article {
