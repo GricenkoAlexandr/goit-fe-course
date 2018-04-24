@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Module-04-task-general (Gricenko Alexandr)</title>
     <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet">
-    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
  </head>
  <body class="body">
@@ -27,30 +27,80 @@
         </div>
         <div class="shop">
             <div class="titles">
-                <p>Featured Products</p>
+                <h4>Featured Product</h4>
             </div>
             <div class="showcase">
                 <ul>
-                    <li><img class="image" src="images/wshose.jpg" alt="shose*"><p>blue tshirt</p><p class="price">26</p></li>
-                    <li><img class="image" src="images/belt.jpg" alt="belt"><p>woman shirt</p><p class="price">31</p></li>
-                    <li><img class="image" src="images/hat.jpg" alt="hat"><p>yellow tshirt</p><p class="price">21</p></li>
-                    <li><img class="image" src="images/bag.jpg" alt="bag"><p>cool lingerie</p><p class="price">56</p></li>
-                    <li><img class="image" src="images/wbag.jpg" alt="wbag"><p>blue tshirt</p><p class="price">26</p></li>
-                    <li><img class="image" src="images/wbalt.jpg" alt="wbalt"><p>woman shirt</p><p class="price">31</p></li>
-                    <li><img class="image" src="images/wshose.jpg" alt="wshose"><p>yellow tshirt</p><p class="price">21</p></li>
-                    <li><img class="image" src="images/glasses.jpg" alt="glasses"><p>cool lingerie</p><p class="price">56</p></li>
+                    <li class="case">
+                        <img class="image" src="images/wshose.jpg" alt="shose*">
+                        <p class="casename">blue tshirt</p>
+                        <p class="price">26</p>
+                    </li>
+                    <li class="case">
+                        <img class="image" src="images/belt.jpg" alt="belt">
+                        <p class="casename">woman shirt</p>
+                        <p class="price">31</p>
+                    </li>
+                    <li class="case">
+                        <img class="image" src="images/hat.jpg" alt="hat">
+                        <p class="casename">yellow tshirt</p>
+                        <p class="price">21</p>
+                    </li>
+                    <li class="case">
+                        <img class="image" src="images/bag.jpg" alt="bag">
+                        <p class="casename">cool lingerie</p>
+                        <p class="price">56</p>
+                    </li>
+                    <li class="case">
+                        <img class="image" src="images/wbag.jpg" alt="wbag">
+                        <p class="casename">blue tshirt</p>
+                        <p class="price">26</p>
+                    </li>
+                    <li class="case">
+                        <img class="image" src="images/wbalt.jpg" alt="wbalt">
+                        <p class="casename">woman shirt</p>
+                        <p class="price">31</p>
+                    </li>
+                    <li class="case">
+                        <img class="image" src="images/wshose.jpg" alt="wshose">
+                        <p class="casename">yellow tshirt</p>
+                        <p class="price">21</p>
+                    </li>
+                    <li class="case">
+                        <img class="image" src="images/glasses.jpg" alt="glasses">
+                        <p class="casename">cool lingerie</p>
+                        <p class="price">56</p>
+                    </li>
                 </ul>
             </div>
         </div>
         <div class="newsblock">
                 <div class="titles">
-                        <p>latest news</p>
+                        <h4>latest news</h4>
                 </div>
-                <div class="news">
+                <div class="news clearfix">
                     <ul>
-                        <li><img class="imgnews" src="images/gps.jpg" alt="gpsnav"><p class="prenews">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, nemo.</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, velit minus? Laboriosam autem tempora doloremque iusto voluptatum quibusdam ipsam commodi corrupti vitae culpa ratione, impedit ut illo magni laudantium deleniti.</p><p class="readm">read more</p></li>
-                        <li><img class="imgnews" src="images/women.jpg" alt="women"><p class="prenews">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, nemo.</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, velit minus? Laboriosam autem tempora doloremque iusto voluptatum quibusdam ipsam commodi corrupti vitae culpa ratione, impedit ut illo magni laudantium deleniti.</p><p class="readm">read more</p></li>
-                        <li><img class="imgnews" src="images/bus.jpg" alt="bus"><p class="prenews">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, nemo.</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, velit minus? Laboriosam autem tempora doloremque iusto voluptatum quibusdam ipsam commodi corrupti vitae culpa ratione, impedit ut illo magni laudantium deleniti.</p><p class="readm">read more</p></li>
+                        <li class="onenews">
+                            <img class="imgnews" src="images/gps.jpg" alt="gpsnav">
+                            <p class="prenews">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, nemo.</p>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, velit minus? Laboriosam autem tempora 
+                                doloremque iusto voluptatum quibusdam ipsam commodi corrupti vitae culpa ratione, impedit ut illo magni laudantium deleniti.</p>
+                            <a href="#" class="readm">read more</a>
+                        </li>
+                        <li class="onenews">
+                            <img class="imgnews" src="images/women.jpg" alt="women">
+                            <p class="prenews">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, nemo.</p>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, velit minus? Laboriosam autem tempora
+                                 doloremque iusto voluptatum quibusdam ipsam commodi corrupti vitae culpa ratione, impedit ut illo magni laudantium deleniti.</p>
+                            <a href="#" class="readm">read more</a>
+                        </li>
+                        <li class="onenews">
+                            <img class="imgnews" src="images/bus.jpg" alt="bus">
+                            <p class="prenews">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, nemo.</p>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, velit minus? Laboriosam autem tempora doloremque iusto 
+                                voluptatum quibusdam ipsam commodi corrupti vitae culpa ratione, impedit ut illo magni laudantium deleniti.</p>
+                            <a href="#" class="readm">read more</a>
+                        </li>
                     </ul>
                 </div>          
         </div>

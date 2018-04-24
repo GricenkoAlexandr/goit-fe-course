@@ -24,6 +24,7 @@
 }
 
 a {
+    display: block;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
@@ -55,7 +56,7 @@ h3::first-letter {
     color: rgb(97, 97, 97);
     margin: 1px;
     padding: 25px;
-    padding-top: 35px;
+    /*padding-top: 35px;*/
     font-size: 16px;
 }
 
@@ -91,4 +92,7 @@ h3::first-letter {
 
 .loading::first-letter {
     text-transform: uppercase;
+}
+.loading a{
+    font-size: 16px;
 }
