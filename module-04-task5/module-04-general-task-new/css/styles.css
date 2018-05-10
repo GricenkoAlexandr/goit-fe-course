@@ -10,12 +10,14 @@
     padding: 20px;
 }
 
+/* Block "Header" with "menu"*/
+
 .header {
     display: block;
     font-style: normal;
     width: 800px;
     padding: 10px; 
-    margin: 10px;   
+    margin: 10px; 
 }
 
 .logo a {
@@ -31,7 +33,7 @@
 }
 
 .logo a::first-letter {
-    color: #1cbd9b;
+    color: #1BBC9B;
 }
 
 .menu {
@@ -50,82 +52,96 @@
     padding: 5px;
 }
 
-.menu a:hover {
-    color: #1cbd9b;
+.menu a:last-child {
+    margin-right: 0px;
 }
 
+.menu a:hover {
+    color: #1BBC9B;
+}
+
+/* Block "Shop"*/
+.shop {
+    padding: 10px;
+}
 .image {
     width: 180px;
-    height: 215px;
-
+    height: 220px;
+    border: 1px solid rgb(0, 0, 0);
 }
 
-li {
-    display: inline-block;
-    width: 190px;
-    height: 200px;
-
+.case {
+    float: left;
+    text-decoration: none;
+    text-transform: uppercase;   
+    margin:5px;
+    width: 185px;
+    height: 250px;
+    border: 1px solid rgb(0, 0, 0);
+    list-style: none;
 }
 
-.menu li {
-    display: inline-block;
+.case:hover {
+    background-color: #1BBC9B;
+}
+.casename {
+    float: left;
+    width:130px;
+    height: 30px;
+    text-align: center;
+    line-height:30px;
+    border: 1px solid rgb(0, 0, 0);
+    color: white;
+    background-color: rgb(50, 50, 50)
+}
+
+.casename:hover {
+    background-color: #1BBC9B;
+}
+
+.price {
+    float: right;
     width: 50px;
-    height: 20px;
-
+    height: 30px;
+    text-align: center;
+    line-height:30px;
+    color: white;
+    background-color: rgb(140, 140, 140);
+    border: 1px solid rgb(0, 0, 0);
 }
 
-.titles {
+.price::before {
+    content: '';
+}
+
+.price:hover {
+    background-color: #7DDAC8;
+}
+
+.titles h4{
     height: 50px;
     text-align: center;
     font-size: 35px;
+    font-weight: 700;
     text-transform: uppercase;
     margin: 25px;
+    border: 1px solid rgb(0, 0, 0);
 }
 
 .titles h4::after {
     display: block;
     width: 140px;
     height: 4px;
-    background-color: #1cbd9b;
+    background-color: #1BBC9B;
     content: "";
     margin: auto;
+    border: 1px solid rgb(0, 0, 0);
 }
 
 
 .showcase {
     padding: 20px;
-}
-
-.case {
-    display: inline-block;
-    color: #ffffff;
-    background-color: #323232;
-    text-transform: uppercase;
-}
-
-.showcase li:hover {
-    background-color: #1BBC9A;
-}
-.price {
-    float: right;
-    color: #f01048;
-    background-color: #8C8C8C;
-}
-
-.newsblock {
-    padding: 20px;
-    /*padding-bottom: 40px;*/
-
-}
-.onenews {
-    float: left;
-    width: 260px;
-    height: 450px;
-}
-
-.imgnews {
-    width: 220px;
-    height: 160px;
+    border: 1px solid rgb(0, 0, 0);
 }
 
 .readm {
@@ -137,8 +153,9 @@ li {
     text-align: center;
     line-height: 40px;
     color: #ffffff;
-    background-color: #1cbd9b;
+    background-color: #1BBC9B;
     font-size: 12px;
+    border: 1px solid rgb(0, 0, 0);
 }
 
 
